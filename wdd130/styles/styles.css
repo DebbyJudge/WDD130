@@ -1,0 +1,43 @@
+root{
+    --primary-color: #XXXXXX;
+    --secondary-color: #XXXXXX;
+    --accent1-color: #XXXXXX;
+    --accent2-color: #XXXXXX;
+    
+    --heading-font: '______'
+    --paragraph-font: '_____'
+
+    --nav-backgroung-color: #XXXXXX;
+    --nav-link-color: #XXXXXX;
+    --nav-hover-link-color: #XXXXXX;
+    --nav-hover-background-color: #XXXXXX;
+}
+
+
+
+nav {
+    background-color: blueviolet;
+    padding: 10px;
+}
+
+nav a {
+    color:antiquewhite;
+    display: black;
+    padding: 20px;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+img {
+    width: 123;
+    height: auto;
+    border: 1px blueviolet;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
+p {
+    padding: 10px;
+}
