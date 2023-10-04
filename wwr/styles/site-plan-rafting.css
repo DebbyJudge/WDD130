@@ -1,4 +1,6 @@
-root{
+@import url('https://fonts.googleapis.com/css2?family=font-nmae&family=optional-2nd-font-name&display=swap');
+
+:root{
     --primary-color: #XXXXXX;
     --secondary-color: #XXXXXX;
     --accent1-color: #XXXXXX;
@@ -22,7 +24,7 @@ body {
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Courier New', Courier, monospace;
-    color:black rgba(119, 226, 43, 0)
+    color:blueviolet
 
 }
 
