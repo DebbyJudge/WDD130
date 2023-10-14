@@ -24,6 +24,7 @@ header {
 nav ul {
     list-style: none;
     display: flex;
+    justify-content: space-between;
 }
 
 nav li {
@@ -33,9 +34,9 @@ nav li {
 nav a {
     color: white;
     text-decoration: none;
+    display: flex;
 }
-article{
-    
+article {
     position: absolute;
     top: 55%;
     left: 50%;
@@ -81,7 +82,7 @@ article img {
     max-width: 50%;
     float: left;
 }
-
+ 
 /* Footer Styles */
 footer  {
     background-color: #d1d5db;
@@ -178,5 +179,6 @@ h3 {
     transform: translate(-50%);
     color: #d1d5db;
     background-color: #000000;
+    opacity: 0.7;
 }
 
