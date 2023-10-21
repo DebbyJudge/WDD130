@@ -7,7 +7,7 @@ body, h1, p {
 }
 
 body {
-    background-color: #fff; /* Background color */
+    background-color: #f8f2f2e1; /* Background color */
 }
 
 /* Header Styles */
@@ -31,7 +31,7 @@ h1 {
 
 
 h2 {
-    position: absolute;
+    
     top: 55%;
     left: 1%;
     text-align: center;
@@ -64,25 +64,24 @@ nav a {
     text-decoration: none;
 }
 
-/* Main Content Styles */
+
 main {
     padding: 20px;
 }
 
 h1, h2, h3 {
-    color: #000; /* Heading text color */
+    color: #000; 
 }
 
 p {
-    color: #333; /* Paragraph text color */
+    color: #333; 
 }
 
-/* Company Info Styles */
 .company-info {
     margin: 20px 0;
 }
 
-/* Employee Profiles Styles */
+
 .employee-profiles {
     display: flex;
     flex-wrap: wrap;
@@ -143,13 +142,83 @@ button[type="submit"] {
 
 /* Footer Styles */
 footer {
-    background-color: #333; /* Footer background color */
+    background-color: #9e9898c9; 
     color: #fff; /* Footer text color */
+    align-items: center;
     text-align: center;
     padding: 10px;
+    justify-content: space-between;
 }
 
 .map {
     margin-top: 20px;
 }
-/* Trip css Code */
+
+.social-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.social-icons img {
+    width: 20px;
+    left: 50%;
+    top: 50%;
+}
+.social-icons a {
+    margin-right: 11px;
+}
+.adventures img {
+    max-width: 100%;
+    margin: 20px;  
+    text-align: center;  
+}
+.adventures {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.adventures figure {
+    flex: 1;
+    text-align: center;
+    margin: 15px;
+}
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+figure img {
+    width: 400px;
+    border: 1px;
+    height: 400px;
+}
+/* Add this CSS to your existing stylesheet */
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+article{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: rgba(225, 200, 200, 0.776);
+    padding: 20px;
+    color: rgba(0, 0, 0, 0.508);
+    width: 70%;
+    text-decoration: rgb(40, 108, 111);
+}
+
+article img {
+    max-width: 200px;
+    float: right;
+    margin-top: 20px;
+    margin-left: 20px;
+}
