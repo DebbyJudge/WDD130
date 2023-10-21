@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML and CSS Quiz</title>
+    <meta name="description" content="Basic Html & Css Quiz.">
+    <meta name="author" content="Deborah Bayode">
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <header>
+        <h1>✔ Basic HTML and CSS Quiz</h1>
+        <form action="submit_quiz.php" method="post">
+        <label for="q1">1. Fill in the blank: HTML stands for HyperText Markup.</label>
+        <input type="text" id="q1" name="q1" required>
+
+        <label for="q2">2. Explain the purpose of CSS in web development.</label>
+        <textarea id="q2" name="q2" rows="4" required></textarea>
+
+        <label for="q3">3. What does the "C" stand for in CSS?</label>
+        <select id="q3" name="q3" required>
+            <option value="" selected disabled>Choose One...</option>
+            <option value="cascading">Cascading</option>
+            <option value="colorful">Colorful</option>
+            <option value="cool">Cool</option>
+        </select>
+        <label for="q4">4. How many heading levels are there in HTML?</label>
+        <input type="number" id="q4" name="q4" required>
+        <button type="submit">Submit Quiz</button>
+     </form>
+   </header>
+</body>
+</html>

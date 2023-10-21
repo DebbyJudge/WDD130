@@ -1,0 +1,156 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Header Styles */
+header {
+    background-color: grey;
+    text-align: center;
+
+    /*logo styles */
+}
+.logo  {
+    position: absolute;
+    top: 50px;
+    left: 15px;
+    
+   
+}
+.logo img {
+    width: 50px;
+}
+
+/* Add this CSS to your existing stylesheet */
+.menu {
+   
+    top: 50px;
+    right: 50px;
+    background-color: rgba(255, 255, 255, 0.7); 
+    padding: 1rem;
+    border-radius: 5px;
+    display: flex;   
+    justify-content: space-evenly;
+}
+
+.menu li {
+    list-style: none; 
+    margin-bottom: 10px; 
+  
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333; 
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section Styles */
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    
+}
+
+.hero h1 {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: chocolate;
+}
+
+
+
+/* Newsletter Section Styles */
+.newsletter {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.newsletter h2 {
+    color: #333;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter input[type="text"],
+.newsletter input[type="email"],
+.newsletter button {
+    padding: 10px;
+    margin: 5px;
+}
+
+/* CTA Section Styles */
+.cta {
+    top: 550px;
+    left: 750px;
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: blue
+    
+}
+
+.cta a {
+    color: #fff;
+    background-color: #ff8c00;
+    padding: 1.9px 6.9px;
+    text-decoration: none;
+}
+
+/* Grid Layout Styles */
+.grid-layout {
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff;
+    color: #333;
+    width: 20px;
+    height: 5%;
+    -ms-layout-grid: none;
+}
+
+.grid-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+.grid-layout img {
+    width: 610px;
+    height: 250px;
+    align-content: center;
+}
+/* Footer Styles */
+footer {
+    background-color: grey;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+ul img {
+    width: 3%;
+    padding: 5vmin;
+    justify-content: space-evenly;
+}
+
