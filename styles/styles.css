@@ -13,23 +13,26 @@ body {
 header {
     background-color: grey;
     text-align: center;
+}
 
-    /*logo styles */
+.logo {
+    display: inline-block; /* Make the logo an inline-block element */
+    padding: 10px; /* Add some padding to the logo for spacing */
 }
-.logo  {
-    position: absolute;
-    top: 50px;
-    left: 15px;
-    
-   
+
+.logo a {
+    text-decoration: none; /* Remove underline from the logo link */
 }
+
 .logo img {
-    width: 50px;
+    width: 100px;
+    height: auto; 
+    border-radius: 30%;
 }
 
-/* Add this CSS to your existing stylesheet */
+
+
 .menu {
-   
     top: 50px;
     right: 50px;
     background-color: rgba(255, 255, 255, 0.7); 
@@ -108,14 +111,15 @@ header {
     position: absolute;
     transform: translate(-50%, -50%);
     font-size: 20px;
-    color: blue
-    
+    color: blue    
 }
 
 .cta a {
     color: #fff;
+    border-radius: 20%;
+    border-color: #333;
     background-color: #ff8c00;
-    padding: 1.9px 6.9px;
+    padding: 2.9px 6.9px;
     text-decoration: none;
 }
 
@@ -141,16 +145,52 @@ header {
     height: 250px;
     align-content: center;
 }
+
 /* Footer Styles */
-footer {
-    background-color: grey;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-}
+
+
 ul img {
     width: 3%;
     padding: 5vmin;
     justify-content: space-evenly;
 }
+/* Footer Styles */
+footer {
+    background-color: grey;
+    color: #1f1c1c;
+    padding: 2px;
+    border-width: 200px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between; 
+}
 
+
+.footer-social {
+    text-align: left; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 50px;
+    border-radius: 35%
+}
+
+.footer-social a {
+    margin-right: 10px; 
+}
+
+.footer-social img {
+    width: 20px;
+    left: 50%;
+    top: 50%;
+}
+
+
+
+
+
+    
