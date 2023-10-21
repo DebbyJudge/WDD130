@@ -1,4 +1,3 @@
-<<<<<<< HEAD:wdd130/wwr/styles/site-plan-rafting.css
 @import url('https://fonts.googleapis.com/css2?family=font-nmae&family=optional-2nd-font-name&display=swap');
 
 :root{
@@ -56,63 +55,4 @@ nav a:link, nav a:visited {
 nav a hover {
     color: blueviolet;
     background-color: aliceblue(--nav-hover-background-color);
-=======
-@import url('https://fonts.googleapis.com/css2?family=font-nmae&family=optional-2nd-font-name&display=swap');
-
-:root{
-    --primary-color: #XXXXXX;
-    --secondary-color: #XXXXXX;
-    --accent1-color: #XXXXXX;
-    --accent2-color: #XXXXXX;
-    
-    --heading-font: '______'
-    --paragraph-font: '_____'
-
-    --nav-backgroung-color: #XXXXXX;
-    --nav-link-color: #XXXXXX;
-    --nav-hover-link-color: #XXXXXX;
-    --nav-hover-background-color: #XXXXXX;
-}
-
-
-body {
-        font-family: Arial, Helvetica, sans-serif;
-        max-width: 960px;
-        padding: 20px;
-        
-}
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Courier New', Courier, monospace;
-    color:blueviolet
-
-}
-
-header {
-    padding: 20px;
-    background-color: antiquewhite;
-}
-p {
-    padding: 25px;
-}
-nav {
-    background-color: black(--nav-backgroung-color);
-    font-size: 1.2rem;
-    display: flex;
-
-}
-
-nav a {
-    display: block;
-    color: aliceblue(--nav-link-color);
-    padding: 1rem;
-}
-
-nav a:link, nav a:visited {
-    color: black;
-}
-
-nav a hover {
-    color: blueviolet;
-    background-color: aliceblue(--nav-hover-background-color);
->>>>>>> 5fb1976ebb900e2457f23850dd5d841b92e4d2ee:wwr/styles/site-plan-rafting.css
 }

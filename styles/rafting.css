@@ -1,4 +1,4 @@
-/* Reset some default styles */
+/* Contact.html styles */
 body, h1, p {
     margin: 0;
     padding: 0;
@@ -12,8 +12,8 @@ body {
 
 /* Header Styles */
 header {
-    background-color: #333; /* Header background color */
-    color: #fff; /* Header text color */
+    background-color: #482525; 
+    color: #fff; 
     padding: 20px;
     display: grid;
     grid-template-columns: auto 1fr;
@@ -152,7 +152,4 @@ footer {
 .map {
     margin-top: 20px;
 }
-
-/* You can add more styles as needed to match your wireframe design. */
-
-
+/* Trip css Code */
