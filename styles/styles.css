@@ -64,9 +64,9 @@ p {
   .box {
     margin: 1rem;
     padding: 1rem;
-    border: 1px solid rgba (0, 0, 0,.1);
-    background-color: #f0f0f0; /* Your desired background color */
-    color: #333; /* Your desired text color */
+    border: 1px solid rgba(0, 0, 0,.1);
+    background-color: #f0f0f0; 
+    color: #000000; 
   }
   aside h2 {
     position: absolute;
