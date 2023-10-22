@@ -1,196 +1,55 @@
-/* Reset some default browser styles */
-body, h1, h2, h3, p, form {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-}
-
-/* Header Styles */
-header {
-    background-color: grey;
-    text-align: center;
-}
-
-.logo {
-    display: inline-block; /* Make the logo an inline-block element */
-    padding: 10px; /* Add some padding to the logo for spacing */
-}
-
-.logo a {
-    text-decoration: none; /* Remove underline from the logo link */
-}
-
-.logo img {
-    width: 100px;
-    height: auto; 
-    border-radius: 30%;
-}
-
-
-
-.menu {
-    top: 50px;
-    right: 50px;
-    background-color: rgba(255, 255, 255, 0.7); 
-    padding: 1rem;
-    border-radius: 5px;
-    display: flex;   
-    justify-content: space-evenly;
-}
-
-.menu li {
-    list-style: none; 
-    margin-bottom: 10px; 
+/* Limit main width */
+main {
+   max-width: 850px; 
+  }
   
-}
-
-.menu a {
-    text-decoration: none;
+  /* Style for the aside element */
+  aside {
+    width: 250px; 
+    margin: 20px 0; /* Add margin for spacing */
+    border: 1px solid #cccccc00; /* Add a border */
+    padding: 10px; 
+    background-color: #e6e2e2e3; 
     color: #333; 
-}
-
-.menu a:hover {
-    text-decoration: underline;
-}
-
-/* Hero Section Styles */
-.hero {
-    position: relative;
-}
-
-.hero img {
-    width: 100%;
+  }
+  
+  
+  aside img {
+    width: 200px; 
+    height: auto; 
+  }
+  
+  /* Style for the main image */
+  main img {
+    width: 200px;
     height: auto;
-    
-}
-
-.hero h1 {
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 30px;
-    color: chocolate;
-}
-
-
-
-/* Newsletter Section Styles */
-.newsletter {
-    background-color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-
-.newsletter h2 {
-    color: #333;
-}
-
-.newsletter form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.newsletter input[type="text"],
-.newsletter input[type="email"],
-.newsletter button {
+    /* Existing styles... */
+  }
+  
+  /* Style for the paragraph within aside */
+  aside p {
+    padding: 0; /* Remove padding */
+  }
+  
+  /* Style for the footer element */
+  footer {
+    margin-top: 20px; /* Add top margin for spacing */
+    border-top: 1px solid #ccc; /* Add a top border */
+    text-align: center; /* Align text to the center */
+  }
+  
+nav a {
+    color: azure;
     padding: 10px;
-    margin: 5px;
+    display: block;
+}
+header {
+    background-color: brown;
 }
 
-/* CTA Section Styles */
-.cta {
-    top: 550px;
-    left: 750px;
-    text-align: center;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    font-size: 20px;
-    color: blue    
+h1 {
+    color: brown;
 }
-
-.cta a {
-    color: #fff;
-    border-radius: 20%;
-    border-color: #333;
-    background-color: #ff8c00;
-    padding: 2.9px 6.9px;
-    text-decoration: none;
+p {
+    padding: 0%;
 }
-
-/* Grid Layout Styles */
-.grid-layout {
-    display: flex;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    padding: 20px;
-    background-color: #fff;
-    color: #333;
-    width: 20px;
-    height: 5%;
-    -ms-layout-grid: none;
-}
-
-.grid-item {
-    border: 1px solid #ccc;
-    padding: 20px;
-}
-.grid-layout img {
-    width: 610px;
-    height: 250px;
-    align-content: center;
-}
-
-/* Footer Styles */
-
-
-ul img {
-    width: 3%;
-    padding: 5vmin;
-    justify-content: space-evenly;
-}
-/* Footer Styles */
-footer {
-    background-color: grey;
-    color: #1f1c1c;
-    padding: 2px;
-    border-width: 200px;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: space-between; 
-}
-
-
-.footer-social {
-    text-align: left; 
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.footer-logo img {
-    width: 50px;
-    border-radius: 35%
-}
-
-.footer-social a {
-    margin-right: 10px; 
-}
-
-.footer-social img {
-    width: 20px;
-    left: 50%;
-    top: 50%;
-}
-
-
-
-
-
-    
