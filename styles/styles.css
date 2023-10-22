@@ -1,4 +1,4 @@
-/* Limit main width */
+/* Clacc sector */
 main {
    max-width: 850px; 
    margin: 1rem;
@@ -6,6 +6,7 @@ main {
   
   /* Style for the aside element */
   aside {
+    position: relative;
     width: 250px; 
     margin: 20px 0; /* Add margin for spacing */
     border: 1px solid #cccccc00; /* Add a border */
@@ -70,8 +71,8 @@ p {
   }
   aside h2 {
     position: absolute;
-    top: 47;
-    left: 150;
+    top: 10%;
+    left: 20%;
     background-color: rgba(255, 255, 255, 0.8); /* Background color with opacity */
     padding: 5px;
   }
