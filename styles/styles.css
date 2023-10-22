@@ -1,6 +1,7 @@
 /* Limit main width */
 main {
    max-width: 850px; 
+   margin: 1rem;
   }
   
   /* Style for the aside element */
@@ -23,7 +24,7 @@ main {
   main img {
     width: 200px;
     height: auto;
-    /* Existing styles... */
+    float: right;
   }
   
   /* Style for the paragraph within aside */
@@ -42,6 +43,7 @@ nav a {
     color: azure;
     padding: 10px;
     display: block;
+
 }
 header {
     background-color: brown;
@@ -49,7 +51,27 @@ header {
 
 h1 {
     color: brown;
+    padding: 0.5rem;
 }
 p {
     padding: 0%;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .box {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid rgba (0, 0, 0,.1);
+    background-color: #f0f0f0; /* Your desired background color */
+    color: #333; /* Your desired text color */
+  }
+  aside h2 {
+    position: absolute;
+    top: 47;
+    left: 150;
+    background-color: rgba(255, 255, 255, 0.8); /* Background color with opacity */
+    padding: 5px;
+  }
