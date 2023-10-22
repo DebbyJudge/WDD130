@@ -27,9 +27,11 @@
     padding : 25px;
     }
     nav {
-    font-size : 1.2rem;
-    display : flex;
+        font-size: 1.2rem;
+        display: flex;
+        background-color: var(--nav-background-color); /* Set the background color using the custom variable */
     }
+    
     nav a {
     display : block;
     padding : 1rem;
