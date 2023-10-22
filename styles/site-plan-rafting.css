@@ -1,50 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=font-nmae&family=optional-2nd-font-name&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Your+Font+Name&family=Your+2nd+Font+Name&display=swap');
 
-:root{
+:root {
     --primary-color: #XXXXXX;
     --secondary-color: #XXXXXX;
     --accent1-color: #XXXXXX;
     --accent2-color: #XXXXXX;
     
-    --heading-font: '______'
-    --paragraph-font: '_____'
+    --heading-font: 'Your Chosen Heading Font';
+    --paragraph-font: 'Your Chosen Paragraph Font';
 
-    --nav-backgroung-color: #XXXXXX;
+    --nav-background-color: #XXXXXX;
     --nav-link-color: #XXXXXX;
     --nav-hover-link-color: #XXXXXX;
     --nav-hover-background-color: #XXXXXX;
 }
 
-
 body {
-        font-family: Arial, Helvetica, sans-serif;
-        max-width: 960px;
-        padding: 20px;
-        
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 960px;
+    padding: 20px;
 }
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Courier New', Courier, monospace;
-    color:blueviolet
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font); /* Use the custom font variable */
+    color: blueviolet;
 }
 
 header {
     padding: 20px;
     background-color: antiquewhite;
 }
+
 p {
     padding: 25px;
 }
+
 nav {
-    background-color: black(--nav-backgroung-color);
+    background-color: var(--nav-background-color); /* Use the custom color variable */
     font-size: 1.2rem;
     display: flex;
-
 }
 
 nav a {
     display: block;
-    color: aliceblue(--nav-link-color);
+    color: var(--nav-link-color); /* Use the custom color variable */
     padding: 1rem;
 }
 
@@ -52,7 +51,7 @@ nav a:link, nav a:visited {
     color: black;
 }
 
-nav a hover {
+nav a:hover { /* Use the correct selector for hover state */
     color: rgb(87, 5, 5);
-    background-color: aliceblue(--nav-hover-background-color);
+    background-color: var(--nav-hover-background-color); /* Use the custom color variable */
 }
