@@ -53,6 +53,6 @@ nav a:link, nav a:visited {
 }
 
 nav a hover {
-    color: blueviolet;
+    color: rgb(87, 5, 5);
     background-color: aliceblue(--nav-hover-background-color);
 }
