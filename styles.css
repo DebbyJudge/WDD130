@@ -1,0 +1,78 @@
+/* Clacc sector */
+main {
+   max-width: 850px; 
+   margin: 1rem;
+  }
+  
+  /* Style for the aside element */
+  aside {
+    position: relative;
+    width: 250px; 
+    margin: 20px 0; /* Add margin for spacing */
+    border: 1px solid #cccccc00; /* Add a border */
+    padding: 10px; 
+    background-color: #e6e2e2e3; 
+    color: #333; 
+  }
+  
+  
+  aside img {
+    width: 200px; 
+    height: auto; 
+  }
+  
+  /* Style for the main image */
+  main img {
+    width: 200px;
+    height: auto;
+    float: right;
+  }
+  
+  /* Style for the paragraph within aside */
+  aside p {
+    padding: 0; /* Remove padding */
+  }
+  
+  /* Style for the footer element */
+  footer {
+    margin-top: 20px; /* Add top margin for spacing */
+    border-top: 1px solid #ccc; /* Add a top border */
+    text-align: center; /* Align text to the center */
+  }
+  
+nav a {
+    color: azure;
+    padding: 10px;
+    display: block;
+
+}
+header {
+    background-color: brown;
+}
+
+h1 {
+    color: brown;
+    padding: 0.5rem;
+}
+p {
+    padding: 0%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .box {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0,.1);
+    background-color: #f0f0f0; 
+    color: #000000; 
+  }
+  aside h2 {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    background-color: rgba(255, 255, 255, 0.8); /* Background color with opacity */
+    padding: 5px;
+  }
