@@ -20,7 +20,9 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-
+.header .logo img {
+    max-width: 150px;
+  }
 h1 {
     top: 50%;
     left: 1%;
@@ -63,6 +65,74 @@ nav a {
     color: #fff; /* Navigation link color */
     text-decoration: none;
 }
+#call-to-action {
+    text-align: center;
+    padding: 20px;
+}
+
+#call-to-action a {
+    color: #333;
+    background-color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+#call-to-action a:hover {
+    background-color: #333;
+    color: #fff;
+}
+* Style the trip descriptions section with text and image */
+/* Center the trip image within its container */
+/* Center the trip images within their container */
+#trip-details {
+    display: flex;
+    justify-content: center; /* Center-align items horizontally */
+    align-items: center; /* Center-align items vertically */
+}
+
+.trip {
+    text-align: center; /* Center-align the text within the trip details */
+    margin: 20px; /* Add margin for spacing between trip details */
+}
+
+.trip img {
+    display: block;
+    margin: 0 auto; /* Horizontally center the image within each trip detail */
+    max-width: 100%; /* Ensure images scale with the container */
+}
+
+#trip-descriptions {
+    text-align: center; /* Center-align text */
+}
+
+#trip-descriptions img {
+    display: block; /* Make the image a block-level element */
+    margin: 0 auto; /* Horizontally center the image within its container */
+    max-width: 100%; /* Ensure it scales with the container */
+}
+
+#trip-table {
+    text-align: center;
+    padding: 20px;
+}
+
+#trip-table h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+#trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#trip-table th, #trip-table td {
+    border: 1px solid #333;
+    padding: 10px;
+}
+
 main {
     padding: 20px;
 }
@@ -168,19 +238,13 @@ footer {
     margin-top: 20px;
 }
 
-.social-icons {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-.social-icons img {
+
+.footer-social img {
     width: 20px;
     left: 50%;
     top: 50%;
 }
-.social-icons a {
-    margin-right: 11px;
-}
+
 .adventures img {
     max-width: 100%;
     margin: 20px;  

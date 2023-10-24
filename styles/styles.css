@@ -1,78 +1,161 @@
-/* Clacc sector */
-main {
-   max-width: 850px; 
-   margin: 1rem;
-  }
-  
-  /* Style for the aside element */
-  aside {
-    position: relative;
-    width: 250px; 
-    margin: 20px 0; /* Add margin for spacing */
-    border: 1px solid #cccccc00; /* Add a border */
-    padding: 10px; 
-    background-color: #e6e2e2e3; 
-    color: #333; 
-  }
-  
-  
-  aside img {
-    width: 200px; 
-    height: auto; 
-  }
-  
-  /* Style for the main image */
-  main img {
-    width: 200px;
-    height: auto;
-    float: right;
-  }
-  
-  /* Style for the paragraph within aside */
-  aside p {
-    padding: 0; /* Remove padding */
-  }
-  
-  /* Style for the footer element */
-  footer {
-    margin-top: 20px; /* Add top margin for spacing */
-    border-top: 1px solid #ccc; /* Add a top border */
-    text-align: center; /* Align text to the center */
-  }
-  
-nav a {
-    color: azure;
-    padding: 10px;
-    display: block;
-
+/* Reset some default margin and padding */
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
 }
+
+/* Apply a background color and text styles to the entire body */
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the header section with logo and navigation */
 header {
-    background-color: brown;
+  background-color: #482525; 
+  color: #fff; 
+  padding: 20px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  justify-content: space-between;
+  align-items: center;
 }
 
-h1 {
-    color: brown;
-    padding: 0.5rem;
+
+.header .logo img {
+  max-width: 150px;
 }
-p {
-    padding: 0%;
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
 }
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  .box {
-    margin: 1rem;
-    padding: 1rem;
-    border: 1px solid rgba(0, 0, 0,.1);
-    background-color: #f0f0f0; 
-    color: #000000; 
-  }
-  aside h2 {
-    position: absolute;
-    top: 10%;
-    left: 20%;
-    background-color: rgba(255, 255, 255, 0.8); /* Background color with opacity */
-    padding: 5px;
-  }
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff; /* Navigation link color */
+    text-decoration: none;
+}
+/* Style the hero section with a full-width image and heading */
+.hero {
+  text-align: center;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  align-items: center;
+  
+}
+
+
+.hero h1 {
+  font-size: 36px;
+  margin: 20px 0;
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center-align items horizontally */
+  justify-content: center; /* Center-align items vertically */
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.newsletter h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+
+.newsletter form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.newsletter input {
+  padding: 10px;
+  margin: 5px;
+  width: 200px;
+  border: 1px solid #ccc;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+
+.cta {
+  text-align: center; /* Center-align the text within the section */
+}
+
+.cta a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin: 0 auto; /* Horizontally center the link within the section */
+}
+
+.cta a:hover {
+  background-color: #555; /* Change the hover background color */
+}
+
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.grid-item {
+  text-align: center;
+}
+
+.grid-item img {
+  max-width: 100%;
+}
+
+.grid-item h3 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.grid-item p {
+  margin: 10px 0;
+}
+
+/* Style the footer section */
+footer {
+  background-color: #c98484; 
+  color: rgba(0, 0, 0, 0.913);
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.footer-social img {
+  width: 20px;
+  left: 50%;
+  top: 50%;
+}
+
