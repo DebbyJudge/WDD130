@@ -1,0 +1,44 @@
+:root {
+    --primary-color : #XXXXXX;
+    --secondary-color : #XXXXXX;
+    --accent1-color : #XXXXXX;
+    --accent2-color : #XXXXXX;
+    --heading-font : 'Your Chosen Heading Font';
+    --paragraph-font : 'Your Chosen Paragraph Font';
+    --nav-background-color : #XXXXXX;
+    --nav-link-color : #XXXXXX;
+    --nav-hover-link-color : #XXXXXX;
+    --nav-hover-background-color : #XXXXXX;
+    }
+    body {
+    font-family : Arial, Helvetica, sans-serif;
+    max-width : 960px;
+    padding : 20px;
+    }
+    h1, h2, h3, h4, h5, h6 {
+    font-family : var(--heading-font);
+    color : blueviolet;
+    }
+    header {
+    padding : 20px;
+    background-color : antiquewhite;
+    }
+    p {
+    padding : 25px;
+    }
+    nav {
+        font-size: 1.2rem;
+        display: flex;
+        background-color: var(--nav-background-color); /* Set the background color using the custom variable */
+    }
+    
+    nav a {
+    display : block;
+    padding : 1rem;
+    }
+    nav a:link, nav a:visited {
+    color : black;
+    }
+    nav a:hover {
+    color : rgb(87, 5, 5);
+    }
