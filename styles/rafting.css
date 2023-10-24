@@ -7,7 +7,7 @@ body, h1, p {
 }
 
 body {
-    background-color: #f8f2f2e1; /* Background color */
+    background-color: #fffdfdf6; /* Background color */
 }
 
 /* Header Styles */
@@ -63,8 +63,6 @@ nav a {
     color: #fff; /* Navigation link color */
     text-decoration: none;
 }
-
-
 main {
     padding: 20px;
 }
@@ -79,13 +77,24 @@ p {
 
 .company-info {
     margin: 20px 0;
+  
 }
-
-
+section.company-info {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: rgba(172, 104, 104, 0.681);
+    padding: 20px;
+    color: rgba(0, 0, 0, 0.508);
+    width: 70%;
+    text-decoration: rgb(40, 108, 111);
+}
 .employee-profiles {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-top: 250px;
 }
 
 .employee {
@@ -94,61 +103,66 @@ p {
 }
 
 .employee img {
-    max-width: 100%;
+    max-width: 200%;
 }
 
-/* Contact Form Styles */
+/* Style the contact form section */
 .contact-form {
-    margin: 20px 0;
-}
-
-form {
-    max-width: 400px;
-    margin: 0 auto;
-}
-
-label {
+    background-color: rgba(225, 200, 200, 0.776);
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  /* Style form labels and inputs */
+  .contact-form label {
     display: block;
+    margin-bottom: 5px;
     font-weight: bold;
-    margin-bottom: 10px;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
     width: 100%;
     padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #333; /* Input border color */
-}
-
-fieldset {
-    border: 1px solid #333; /* Fieldset border color */
-    padding: 10px;
-    margin-bottom: 20px;
-}
-
-legend {
-    font-weight: bold;
-}
-
-button[type="submit"] {
-    background-color: #333; /* Submit button background color */
-    color: #fff; /* Submit button text color */
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style radio buttons */
+  .contact-form input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  /* Style the submit button */
+  .contact-form button {
+    background-color: #0074a2;
+    color: #fff;
     padding: 10px 20px;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
-}
-
+  }
+  
+  /* Style the subscribe label */
+  .contact-form label[for="subscribe"] {
+    font-weight: normal;
+  }
+  
+  /* Additional styling can be applied as needed to match your wireframe */
+  
 /* Footer Styles */
 footer {
-    background-color: #9e9898c9; 
-    color: #fff; /* Footer text color */
+    background-color: #c98484; 
+    color: rgb(255, 242, 242);
     align-items: center;
     text-align: center;
     padding: 10px;
     justify-content: space-between;
 }
+
 
 .map {
     margin-top: 20px;
@@ -221,4 +235,8 @@ article img {
     float: right;
     margin-top: 20px;
     margin-left: 20px;
+}
+.social-peps img {
+    width: 20px;
+    
 }
