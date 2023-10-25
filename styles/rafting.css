@@ -1,4 +1,5 @@
-/* Contact.html styles */
+
+  /* Contact.html styles */
 body, h1, p {
     margin: 0;
     padding: 0;
@@ -12,22 +13,44 @@ body {
 
 /* Header Styles */
 header {
-    background-color: #482525;
-    color: #fff;
+    background-color: #482525; 
+    color: #fff; 
     padding: 20px;
     display: grid;
     grid-template-columns: auto 1fr;
     justify-content: space-between;
     align-items: center;
 }
-
 .header .logo img {
     max-width: 150px;
+  }
+h1 {
+    top: 50%;
+    left: 1%;
+    text-align: center;
+    width: 98.5%;
+    display: block; 
 }
 
-h1, h2, h3 {
+
+h2 {
+    
+    top: 55%;
+    left: 1%;
     text-align: center;
+    width: 98.5%;
+    display: block; 
 }
+
+h3 {
+    
+    top: 50%;
+    left: 1%;
+    text-align: center;
+    width: 98.5%;
+    display: block; 
+}
+
 
 nav ul {
     list-style: none;
@@ -43,7 +66,6 @@ nav a {
     color: #fff; /* Navigation link color */
     text-decoration: none;
 }
-
 #call-to-action {
     text-align: center;
     padding: 20px;
@@ -61,13 +83,6 @@ nav a {
 #call-to-action a:hover {
     background-color: #333;
     color: #fff;
-}
-
-/* Style the trip descriptions section with text and image */
-#trip-details {
-    display: flex;
-    justify-content: center; /* Center-align items horizontally */
-    align-items: center; /* Center-align items vertically */
 }
 
 .trip {
@@ -100,7 +115,6 @@ nav a {
     font-size: 24px;
     margin: 10px 0;
 }
-
 #trip-table table {
     width: 100%;
     border-collapse: collapse;
@@ -111,12 +125,172 @@ nav a {
     padding: 10px;
 }
 
+
+
 main {
     padding: 20px;
 }
 
-p {
-    color: #333;
+h1, h2, h3 {
+    color: #000; 
 }
 
-/* Additional styling for the rest of your page can be added as needed */
+p {
+    color: #333; 
+}
+
+.company-info {
+    margin: 20px 0;
+  
+}
+section.company-info {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: rgba(172, 104, 104, 0.681);
+    padding: 20px;
+    color: rgba(0, 0, 0, 0.508);
+    width: 70%;
+    text-decoration: rgb(40, 108, 111);
+}
+.employee-profiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 250px;
+}
+
+.employee {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.employee img {
+    max-width: 200%;
+}
+
+/* Style the contact form section */
+.contact-form {
+    background-color: rgba(225, 200, 200, 0.776);
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  /* Style form labels and inputs */
+  .contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style radio buttons */
+  .contact-form input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  /* Style the submit button */
+  .contact-form button {
+    background-color: #0074a2;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style the subscribe label */
+  .contact-form label[for="subscribe"] {
+    font-weight: normal;
+  }
+  
+  /* Additional styling can be applied as needed to match your wireframe */
+  
+/* Footer Styles */
+footer {
+    background-color: #c98484; 
+    color: rgb(255, 242, 242);
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+
+.map {
+    margin-top: 20px;
+}
+
+
+.footer-social img {
+    width: 20px;
+    left: 50%;
+    top: 50%;
+}
+
+.adventures img {
+    max-width: 100%;
+    margin: 20px;  
+    text-align: center;  
+}
+.adventures {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.adventures figure {
+    flex: 1;
+    text-align: center;
+    margin: 15px;
+}
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+figure img {
+    width: 400px;
+    border: 1px;
+    height: 400px;
+}
+/* Add this CSS to your existing stylesheet */
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+article{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: rgba(225, 200, 200, 0.776);
+    padding: 20px;
+    color: rgba(0, 0, 0, 0.508);
+    width: 70%;
+    text-decoration: rgb(40, 108, 111);
+}
+
+article img {
+    max-width: 200px;
+    float: right;
+    margin-top: 20px;
+    margin-left: 20px;
+}
